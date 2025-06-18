@@ -1,0 +1,14 @@
+{
+    "project_id": "your-gcp-project-id",
+    "region": "us-central1",
+    "cloudsql_instance_name": "my-migrated-mysql-instance",
+    "cloudsql_database_name": "employees_db",
+    "cloudsql_user": "migration_user",
+    "cloudsql_password": "your_strong_password",
+    "cloudsql_machine_type": "db-n1-standard-4",
+    "cloudsql_disk_size_gb": 200,
+    "cloudsql_ha_enabled": true,
+    "cloudsql_private_ip_range_name": "google-managed-services-default",
+    "cloudsql_vpc_network": "default",
+    "cloud_storage_bucket_name": "my-mysql-migration-dumps"
+}
