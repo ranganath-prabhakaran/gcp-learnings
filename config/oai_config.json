@@ -1,0 +1,17 @@
+[
+    {
+        "model": "your-preferred-model",
+        "api_key": "YOUR_OPENAI_API_KEY",
+        "base_url": "https://api.openai.com/v1"
+    }
+    // You can add more configurations here for different models or API endpoints
+    /*
+    ,
+    {
+        "model": "another-model",
+        "api_key": "YOUR_ANOTHER_API_KEY",
+        "base_url": "https://api.openai.com/v1",
+        "api_type": "openai" // Or "azure" if you are using Azure OpenAI
+    }
+    */
+]
